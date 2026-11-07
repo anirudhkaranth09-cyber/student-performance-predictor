@@ -1,0 +1,21 @@
+{
+  "model_name": "Linear Regression",
+  "features": [
+    "study_hours",
+    "attendance_percent",
+    "previous_score",
+    "sleep_hours",
+    "assignments_completed_percent"
+  ],
+  "metrics": {
+    "Linear Regression": {
+      "MAE": 6.14,
+      "R2": 0.653
+    },
+    "Random Forest Regressor": {
+      "MAE": 7.09,
+      "R2": 0.509
+    }
+  },
+  "data_note": "Practice results use simulated data and do not show real-world accuracy."
+}
